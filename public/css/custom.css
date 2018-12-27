@@ -1,0 +1,178 @@
+
+
+#pipe{
+  width: 100%;
+  padding: 0px;
+  height: 25px;
+  min-height: 25px;
+  //background: #e0e4e7;
+  margin: 20px 0;
+  border-radius: 5px;
+  position: relative;
+  display: table;
+  overflow: visible;
+}
+#pipe>ul{
+  border-radius: 5px;
+  width: 100%;
+  margin: 0px;
+  display: table;
+  border-collapse: collapse;
+  table-layout: fixed;
+  height: 25px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  list-style: none;
+}
+#pipe>ul>li{
+
+    position: relative;
+    background: #e0e4e7;
+    display: table-cell;
+    line-height: 1.3em;
+    vertical-align: middle;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+}
+
+#pipe>ul>li.activestage{
+  background-color: #72C66F;
+  background: #43c35e;
+}
+
+
+
+
+#pipe>ul>li>div{
+  position: relative;
+}
+#pipe>ul>li>div>span.stagename{
+  font-size: 12px;
+  display: inline-block;
+  position: relative;
+  left: 4px;
+}
+#pipe>ul>li>div>span.stagearrow::after{
+  width: 22px;
+  height: 25px;
+  position: absolute;
+  right: -6px;
+  top: 5px;
+  border-top: 3px solid #fff;
+  border-right: 5px solid #fff;
+  -webkit-transform: scaleX(0.3) rotate(45deg);
+  -moz-transform: scaleX(0.3) rotate(45deg);
+  -ms-transform: scaleX(0.3) rotate(45deg);
+  -o-transform: scaleX(0.3) rotate(45deg);
+  transform: scaleX(0.3) rotate(45deg);
+  content: " ";
+  cursor: pointer;
+  background: #e0e4e7;
+}
+
+#pipe>ul>li>div>span.stagearrow{
+width: 6px;
+height: 30px;
+position: absolute;
+top: -6px;
+left: 0px;
+overflow: hidden;
+}
+
+#pipe>ul>li.activestage + li div .stagearrow::after, #pipe>ul>li.activestage + li div .stagearrow::after{
+
+    border-top: 3px solid #fff;
+    border-right: 5px solid #fff;
+    background: #43c35e;
+
+}
+
+.divTable{
+  display: table;
+  width: 100%;
+}
+.divTableRow {
+  display: table-row;
+}
+.divTableRow:hover {
+  background: #f3f3f4;
+}
+.divTableRow:even {
+  background: #f3f3f4;
+}
+.divTableHeading {
+  background-color: #EEE;
+  display: table-header-group;
+}
+.divTableCell, .divTableHead {
+  display: table-cell;
+  padding: 3px 10px;
+}
+.divTableCell{
+  border: 1px solid #999999;
+}
+.divTableHeading {
+  background-color: #EEE;
+  display: table-header-group;
+  font-weight: bold;
+}
+.divTableFoot {
+  background-color: #EEE;
+  display: table-footer-group;
+  font-weight: bold;
+}
+.divTableBody {
+  display: table-row-group;
+}
+
+.priority_HIGH {
+  background: #FF0000;
+  border: 2px solid #FF5000;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  z-index: 10
+  box-shadow :1px 3px 2px 2px #777;
+}
+
+
+
+
+.margin-t1{
+
+  margin-top: 10px;
+  
+}
+
+
+.margin-t2{
+
+  margin-top: 20px;
+
+}
+
+.margin-t3{
+
+  margin-top: 30px;
+
+}
+
+
+.margin-t4{
+
+  margin-top: 40px;
+
+}
+
+.margin-t5{
+
+  margin-top: 50px;
+
+}

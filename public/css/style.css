@@ -1,0 +1,333 @@
+
+	div.object p{
+		height: 2px;
+
+	}
+	#menu button{
+		background:#3D5672;
+	}
+
+	#menu img{
+		width:40px;
+		height: 30px;
+	}
+	.shape{
+		position: relative;
+	}
+
+	.shape-properties, .outline-properties, .obj-properties, .line-properties{
+		position: absolute;
+		display: block;
+		width: 170px;
+		padding: 10px;
+		background:#f8f8f8;
+		z-index: 1;
+	}
+	
+	.myFile {
+	  position: relative;
+	  overflow: hidden;
+	  position: absolute;
+	  float: left;
+	  clear: left;
+	}
+
+	.myFile input[type="file"] {
+	  display: block;
+	  position: absolute;
+	  top: 0;
+	  right: 0;
+	  opacity: 0;
+	  font-size: 30px;
+	  filter: alpha(opacity=0);
+	}
+	#rectangle {
+		width: 50px;
+		height: 20px;
+		background:;
+		border-color: orange;
+		border-style: solid;
+		border-radius: 1;
+	}
+
+	#circle {
+		width: 40px;
+		height: 20px;
+		background:;
+		-moz-border-radius: 100px / 50px;
+		-webkit-border-radius: 100px / 50px;
+		border-radius: 100px / 50px;
+		border-style: solid;
+		border-color: orange;
+	}
+	#triangle {
+		width: 0;
+		height: 0;
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+		border-bottom: 40px solid orange;
+	}
+
+	.object_container > div{
+		margin: 5px 0px;
+		background: #F8F8F0;
+		height: 50px;
+		display: block;
+	}
+			
+	.list_element.selected{
+
+		background: #FFFFCC;		
+		cursor: pointer;
+	}
+
+	.list_element p{
+
+		padding: 5px;		
+		margin:5px;
+	}
+
+	img{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-right: 5px;
+	}
+
+#modal, #myModal {
+   width: 1200px;
+   height: 450px;
+   position: absolute;
+   left: 20%;
+   top: 20%; 
+   margin-left: -100px;
+   margin-top: -100px;
+}
+
+/**/
+.glyphicon{
+	font-size:20px ;
+	/*color:white;*/
+
+}
+
+.p-0 {
+	padding: 0;
+}
+
+.right-sidebar {
+	background: #3D5672;
+}
+
+.right-sidebar section {
+	display: absolut
+}
+
+.right-sidebar .section-heading {
+	font-size: 1.2em;
+	font-family: Tahoma;
+	color: #cccccc;
+	display: block;
+	padding: 9px 0 9px 8px;
+	margin: 0 0 12px 0;
+	background: #2A3C4F;
+}
+
+#toolSettings label {
+	color: #99afc9!important;
+	font-weight: normal;
+}
+
+#toolSettings .form-control {
+	background: #2A3C4F;
+	border-color: transparent;
+	color: #bbbbbb;
+}
+
+#toolSettings select.form-control option {
+	background-color: #333333!important;
+}
+
+
+/*started here*/
+
+/*form styles*/
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+
+    /*stacking fieldsets above each other*/
+    position: relative;
+}
+
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+/*inputs*/
+#msform input, #msform textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+}
+
+#msform input:focus, #msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #ee0979;
+    outline-width: 0;
+    transition: All 0.5s ease-in;
+    -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+    -o-transition: All 0.5s ease-in;
+}
+
+/*buttons*/
+#msform .action-button {
+    width: 100px;
+    background: #ee0979;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button:hover, #msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #ee0979;
+}
+
+#msform .action-button-previous {
+    width: 100px;
+    background: #C5C5F1;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button-previous:hover, #msform .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #C5C5F1;
+}
+
+/*headings*/
+.fs-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/*progressbar*/
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    /*CSS counters to number the steps*/
+    counter-reset: step;
+}
+
+#progressbar li {
+    list-style-type: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 9px;
+    width: 33.33%;
+    float: left;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 24px;
+    height: 24px;
+    line-height: 26px;
+    display: block;
+    font-size: 12px;
+    color: #333;
+    background: white;
+    border-radius: 25px;
+    margin: 0 auto 10px auto;
+}
+
+/*progressbar connectors*/
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: -50%;
+    top: 9px;
+    z-index: -1; /*put it behind the numbers*/
+}
+
+#progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none;
+}
+
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before, #progressbar li.active:after {
+    background: #ee0979;
+    color: white;
+}
+
+
+/* Not relevant to this form */
+.dme_link {
+    margin-top: 30px;
+    text-align: center;
+}
+.dme_link a {
+    background: #FFF;
+    font-weight: bold;
+    color: #ee0979;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 5px 25px;
+    font-size: 12px;
+}
+
+.dme_link a:hover, .dme_link a:focus {
+    background: #C5C5F1;
+    text-decoration: none;
+}
+
+/*ends here*/
